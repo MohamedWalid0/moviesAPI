@@ -1,0 +1,24 @@
+
+<div class="row py-4">
+    <div class="col-md-2">
+        <a routerLink='/home'> LOGO </a>
+    </div>
+    <div class="col-md-8">
+        <ul class="d-flex list-unstyled justify-content-around">
+            <li ><a  *ngIf= " signinCheck==true "  routerLink='/home'> Home</a></li>
+            <li ><a  *ngIf= " signinCheck==true "  routerLink='/home'> About</a></li>
+            <li ><a  *ngIf= " signinCheck==true " routerLink='/home'> TV</a></li>
+            <li ><a  *ngIf= " signinCheck==true " routerLink='/home'> Movies</a></li>
+            <li ><a  *ngIf= " signinCheck==true " routerLink='/home'> Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="col-md-2">
+        <ul class="d-flex list-unstyled justify-content-center">
+            <li class=""><a routerLink='/registration'> Registar</a></li>
+            <li class="pl-2"><a routerLink='/signin'> Sign in </a></li>
+        </ul>
+
+    </div>
+
+
+</div>

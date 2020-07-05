@@ -1,0 +1,41 @@
+<div *ngIf="loading==true" class="container">
+    <div  class="row mt-5">
+        <div class="col-md-6">
+            <img [src]="imagePrefix+movieDetails.backdrop_path" alt="" class="w-100">
+        </div>
+
+        <div class="col-md-6">
+            <h2>{{movieDetails.original_title}}</h2>
+            <h4>Vote Average : {{movieDetails.vote_average}}</h4>
+            <h4>Budget : {{movieDetails.budget}}</h4>
+            <p>overview : {{movieDetails.overview}}</p>
+
+        </div>
+    </div>
+    <!-- ----------------- -->
+    <div class="row mt-5">
+        <h5>Top 10 Trending movies :</h5>
+    </div>
+
+    <!-- ------------- -->
+    <div class="row mt-3 ">
+        <div *ngFor='let trend of topTen' class="col-md-3 p-1">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img [src]="imagePrefix+trend.poster_path" class="w-100" alt="">
+                    </div>
+                    <div class="col-md-8">
+                        <h6>{{trend.title}}</h6>
+                    </div>
+                </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+</div>

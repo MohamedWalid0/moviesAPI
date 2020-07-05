@@ -1,0 +1,19 @@
+
+.item{
+    position: relative;
+}
+
+.movieRate , .tvRate {
+    background-color: #00BFFF;
+    border-radius: 3px;
+    position: absolute;
+    padding: 2px;
+    top: 0;
+    right: 10px;
+}
+.movieRate h6 , .tvRate h6 {
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+
+}
