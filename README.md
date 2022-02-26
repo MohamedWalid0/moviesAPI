@@ -1,6 +1,5 @@
 # Movies
 - Visit site : https://movies-show-bda5a.web.app/registration
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
 
 ## Development server
 
